@@ -1,0 +1,1 @@
+Assuming an ipynb file in the src folder, you can export plots here by saving them to `../out/plot.png`

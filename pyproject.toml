@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "mq-mesa-runner"
+version = "0.0.1"
+description = "A short script to prepare and run MESA models as per the specifications in the ASTR3010 unit at Macquarie University."
+authors = ["Benjamin van de Vorstenbosch <bencvdv@gmail.com>"]
+license = "LICENSE.md"
+readme = "README.md"
+packages = [{include = "mesa_runner"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+astropy = "^5.3"
+matplotlib = "^3.7.1"
+numpy = "^1.24.3"
+mesa-reader = {git = "https://github.com/wmwolf/py_mesa_reader.git"}
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
