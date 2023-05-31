@@ -7,9 +7,11 @@ Included in this project are:
 - A basic project structure for managing code, data, and code outputs.
 
 ## Setup
-Note that the provided script relies solely on built-in packages, and so doesn't require the full project setup. Skip to the `Usage` section if that's all you plan on using in this project.
+This project requires MESA to be installed on the system. To do so, follow the [MESA Installation Guide](https://docs.mesastar.org/en/latest/installation.html). Note that, as of S1 2023, the models provided by the unit require the older version of MESA and MESA-SDK, `mesa-r15140` and `mesasdk-20121`.
 
-This project uses poetry to manage python packages in a virtual environment. To set up poetry, follow their [Installation Guide](https://python-poetry.org/docs/#installation).
+Since the model updater script relies solely on built-in packages, it doesn't require the full project setup to run. Skip to the `Usage` section if you don't intend on using this project for writing code, and instead just want to use the script.
+
+This project uses poetry to manage python packages in a virtual environment. To set up poetry, follow the [Poetry Installation Guide](https://python-poetry.org/docs/#installation).
 Then, setup and install the project by typing the following into the terminal:
 ```bash
 poetry install
